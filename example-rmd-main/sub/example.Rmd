@@ -1,0 +1,41 @@
+---
+title: "Example RMarkdown Document"
+author: "Anonymous"
+date: "2024-06-03"
+output:
+  #word_document: default
+  #html_document: default
+  #pdf_document: default
+---
+
+# Introduction
+
+This is a combined example RMarkdown document that incorporates elements from various examples.
+
+## Code Chunks
+
+I can execute R code chunks like this:
+
+```{r}
+# Create a vector of numbers
+x <- 1:10
+
+# Print the vector
+print(x)
+```
+
+```{r}
+# Create a plot
+plot(x, x^2, type = "l", col = "blue", main = "Example Plot", xlab = "X", ylab = "X^2")
+```
+
+```{r}
+# Create a simple data frame
+df <- data.frame(
+  Name = c("Alice", "Bob", "Charlie"),
+  Age = c(30, 25, 35)
+)
+
+# Print the data frame
+print(df)
+```
